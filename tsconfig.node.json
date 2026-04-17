@@ -18,7 +18,11 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    /* AIGC */
+    "composite": true,
+    "types": ["node"]
   },
   "include": ["vite.config.ts"]
 }
